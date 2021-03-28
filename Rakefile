@@ -4,6 +4,5 @@ task :hello do
 end
 
 
-task :greeting do
-  :hello
+task :
 end
