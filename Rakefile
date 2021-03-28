@@ -10,6 +10,6 @@ desc 'outputs hello to the terminal'
 end
 
 desc 'drop into the Pry console'
-task :console do => :environment do
+task :console #do => :environment do
   Pry.start
 end
