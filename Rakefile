@@ -9,6 +9,12 @@ desc 'outputs hello to the terminal'
   end
 end
 
+rake db:migrate
+
+
+
+
+
 desc 'drop into the Pry console'
 task :console do #=> :environment do
   #Pry.start
